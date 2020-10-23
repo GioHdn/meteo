@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Température</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="temperature.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    
+        <div class="text-area">
+            <label for="Ville">Ville :</label>
+            <input type="text" id="ville" name="temp_ville">
+        </div>
+        <div class="button">
+            <button id="affichetemp" type="cherche" onclick="getTemperature()">Chercher</button>
+        </div>
+    
+    <span id="temperature">
+        
+    </span>
+</body>
+</html>
